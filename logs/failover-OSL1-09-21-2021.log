@@ -1,0 +1,175 @@
+-----------------------------------------------------
+OSL1-MDFA-VRT1
+-----------------------------------------------------
+[ { 'adminstate': 'UP',
+    'alert-received': 0,
+    'alert-sent': 1,
+    'devicetype': 'vedge',
+    'handshake-received': 3,
+    'handshake-sent': 3,
+    'hello-received': 30481,
+    'hello-sent': 30495,
+    'inform-received': 21,
+    'inform-sent': 21,
+    'lastupdated': 1632224597810,
+    'mcast-routes-installed': 0,
+    'mcast-routes-received': 0,
+    'mcast-routes-sent': 0,
+    'ompuptime': '3:12:41:06',
+    'operstate': 'UP',
+    'packets-received': 70946,
+    'packets-sent': 30602,
+    'policy-received': 24,
+    'policy-sent': 0,
+    'routes-installed': 20566,
+    'routes-received': 205812,
+    'routes-sent': 224,
+    'services-installed': 0,
+    'services-received': 4,
+    'services-sent': 8,
+    'tlocs-installed': 16,
+    'tlocs-received': 34,
+    'tlocs-sent': 4,
+    'update-received': 40417,
+    'update-sent': 82,
+    'vdevice-dataKey': '10.253.16.11--',
+    'vdevice-host-name': 'OSL1-MDFA1-VRT1',
+    'vdevice-name': '10.253.16.11',
+    'vsmart-peers': 2}]
+IFNAME            VPNID  IP ADDR          MAC ADDR                  OPER STATE            DESC
+----------------------------------------------------------------------------------------------------------------------
+gre1              0      172.16.4.1/30    0a:fd:90:95:00:00         Down              zScaler Node 1   
+gre1              0      -                0a:fd:90:95:00:00         Down              zScaler Node 1   
+gre2              0      172.16.3.1/30    0a:fd:90:95:00:00         Down              zScaler Node 2   
+gre2              0      -                0a:fd:90:95:00:00         Down              zScaler Node 2   
+gre3              0      172.16.2.1/30    0a:fd:90:95:00:00         Down              Cloudi-fi Node 1 
+gre3              0      -                0a:fd:90:95:00:00         Down              Cloudi-fi Node 1 
+gre4              0      172.16.1.1/30    0a:fd:90:95:00:00         Down              Cloudi-fi Node 2 
+gre4              0      -                0a:fd:90:95:00:00         Down              Cloudi-fi Node 2 
+ge1/0             0      -                80:b7:09:22:30:33         Down                               
+ge1/0             0      -                80:b7:09:22:30:33         Down                               
+ge1/1             0      -                80:b7:09:22:30:34         Down                               
+ge1/1             0      -                80:b7:09:22:30:34         Down                               
+ge1/2             0      -                80:b7:09:22:30:37         Up                                 
+ge1/2             0      -                80:b7:09:22:30:37         Up                                 
+ge1/3             0      -                80:b7:09:22:30:38         Down                               
+ge1/3             0      -                80:b7:09:22:30:38         Down                               
+ge1/4             0      -                80:b7:09:22:30:35         Down                               
+ge1/4             0      -                80:b7:09:22:30:35         Down                               
+ge1/5             0      -                80:b7:09:22:30:36         Up                                 
+ge1/5             0      -                80:b7:09:22:30:36         Up                                 
+ge1/6             0      -                80:b7:09:22:30:39         Down                               
+ge1/6             0      -                80:b7:09:22:30:39         Down                               
+ge1/7             0      -                80:b7:09:22:30:3a         Down                               
+ge1/7             0      -                80:b7:09:22:30:3a         Down                               
+ge2/0             0      -                80:b7:09:22:30:3d         Down              STAGING ONLY- SHOULD BE SHUTDOWN
+ge2/0             0      -                80:b7:09:22:30:3d         Down              STAGING ONLY- SHOULD BE SHUTDOWN
+ge2/1             0      -                80:b7:09:22:30:3e         Down                               
+ge2/1             0      -                80:b7:09:22:30:3e         Down                               
+ge2/2             0      -                80:b7:09:22:30:3b         Down                               
+ge2/2             0      -                80:b7:09:22:30:3b         Down                               
+ge2/3             0      10.253.134.130/30 80:b7:09:22:30:3c         Up                Colt MPLS#101203127-100M
+ge2/3             0      -                80:b7:09:22:30:3c         Up                Colt MPLS#101203127-100M
+system            0      10.253.16.11/32  00:00:00:00:00:00         Up                                 
+system            0      -                00:00:00:00:00:00         Up                                 
+ge1/2.400         0      10.253.144.149/30 80:b7:09:22:30:37         Up                Biz-Internet TLOC to VRT2
+ge1/2.400         0      -                80:b7:09:22:30:37         Up                Biz-Internet TLOC to VRT2
+ge1/5.701         403    10.253.134.137/30 80:b7:09:22:30:36         Up                LAN Connection to DSW1
+loopback100       403    10.253.16.11/32  00:00:00:00:00:00         Up                Inband Loopback  
+mgmt0             512    192.168.1.254/24 80:b7:09:22:30:30         Down              OOB Management Interface
+LOCAL           PEER    PEER PEER            SITE   DOMAIN PEER            PEER            
+SYSTEM IP       TYPE    PROT SYSTEM IP       ID     ID     PRIVATE IP      PUBLIC IP       LOCAL COLOR      PROXY STATE UPTIME
+-------------------------------------------------------------------------------------------------------------------
+10.253.16.11    vsmart  dtls 52.215.68.72         1      1 10.253.254.20   52.49.39.216    private5         up          3:04:15:54 
+10.253.16.11    vsmart  dtls 52.215.68.72         1      1 10.253.254.20   52.49.39.216    biz-internet     up          3:04:15:25 
+10.253.16.11    vsmart  dtls 3.122.74.167         2      1 10.253.254.85   3.122.22.78     private5         up          3:04:15:59 
+10.253.16.11    vsmart  dtls 3.122.74.167         2      1 10.253.254.85   3.122.22.78     biz-internet     up          3:04:15:20 
+10.253.16.11    vmanage dtls 52.58.138.170        2      0 10.253.254.90   3.121.92.128    biz-internet     up          3:04:31:14 
+------------------------------------------------------
+OSL1-MDFA1-VRT2
+------------------------------------------------------
+[ { 'adminstate': 'UP',
+    'alert-received': 0,
+    'alert-sent': 1,
+    'devicetype': 'vedge',
+    'handshake-received': 3,
+    'handshake-sent': 3,
+    'hello-received': 30560,
+    'hello-sent': 30574,
+    'inform-received': 21,
+    'inform-sent': 21,
+    'lastupdated': 1632224611903,
+    'mcast-routes-installed': 0,
+    'mcast-routes-received': 0,
+    'mcast-routes-sent': 0,
+    'ompuptime': '3:12:54:25',
+    'operstate': 'UP',
+    'packets-received': 71342,
+    'packets-sent': 30667,
+    'policy-received': 24,
+    'policy-sent': 0,
+    'routes-installed': 20569,
+    'routes-received': 205830,
+    'routes-sent': 228,
+    'services-installed': 0,
+    'services-received': 4,
+    'services-sent': 8,
+    'tlocs-installed': 16,
+    'tlocs-received': 34,
+    'tlocs-sent': 4,
+    'update-received': 40734,
+    'update-sent': 68,
+    'vdevice-dataKey': '10.253.16.12--',
+    'vdevice-host-name': 'OSL1-MDFA1-VRT2',
+    'vdevice-name': '10.253.16.12',
+    'vsmart-peers': 2}]
+IFNAME            VPNID  IP ADDR          MAC ADDR                  OPER STATE            DESC
+----------------------------------------------------------------------------------------------------------------------
+gre1              0      172.20.124.161/30 3e:65:d7:7e:00:00         Down              zScaler Node 1   
+gre1              0      -                3e:65:d7:7e:00:00         Down              zScaler Node 1   
+gre2              0      172.20.124.165/30 3e:65:d7:7e:00:00         Down              zScaler Node 2   
+gre2              0      -                3e:65:d7:7e:00:00         Down              zScaler Node 2   
+gre3              0      172.20.251.249/30 3e:65:d7:7e:00:00         Up                Cloudi-fi Node 1 
+gre3              0      -                3e:65:d7:7e:00:00         Up                Cloudi-fi Node 1 
+gre4              0      172.20.251.253/30 3e:65:d7:7e:00:00         Up                Cloudi-fi Node 2 
+gre4              0      -                3e:65:d7:7e:00:00         Up                Cloudi-fi Node 2 
+ge1/0             0      -                80:b7:09:2a:c9:a3         Down                               
+ge1/0             0      -                80:b7:09:2a:c9:a3         Down                               
+ge1/1             0      -                80:b7:09:2a:c9:a4         Down                               
+ge1/1             0      -                80:b7:09:2a:c9:a4         Down                               
+ge1/2             0      -                80:b7:09:2a:c9:a7         Up                                 
+ge1/2             0      -                80:b7:09:2a:c9:a7         Up                                 
+ge1/3             0      -                80:b7:09:2a:c9:a8         Down                               
+ge1/3             0      -                80:b7:09:2a:c9:a8         Down                               
+ge1/4             0      -                80:b7:09:2a:c9:a5         Down                               
+ge1/4             0      -                80:b7:09:2a:c9:a5         Down                               
+ge1/5             0      -                80:b7:09:2a:c9:a6         Up                                 
+ge1/5             0      -                80:b7:09:2a:c9:a6         Up                                 
+ge1/6             0      -                80:b7:09:2a:c9:a9         Down                               
+ge1/6             0      -                80:b7:09:2a:c9:a9         Down                               
+ge1/7             0      -                80:b7:09:2a:c9:aa         Down                               
+ge1/7             0      -                80:b7:09:2a:c9:aa         Down                               
+ge2/0             0      -                80:b7:09:2a:c9:ad         Down              STAGING ONLY- SHOULD BE SHUTDOWN
+ge2/0             0      -                80:b7:09:2a:c9:ad         Down              STAGING ONLY- SHOULD BE SHUTDOWN
+ge2/1             0      62.101.215.126/30 80:b7:09:2a:c9:ae         Up                Global connect-DIA1-28704819-1G
+ge2/1             0      -                80:b7:09:2a:c9:ae         Up                Global connect-DIA1-28704819-1G
+ge2/2             0      -                80:b7:09:2a:c9:ab         Down                               
+ge2/2             0      -                80:b7:09:2a:c9:ab         Down                               
+ge2/3             0      10.253.134.134/30 80:b7:09:2a:c9:ac         Up                Colt MPLS#180400913-100Mb
+ge2/3             0      -                80:b7:09:2a:c9:ac         Up                Colt MPLS#180400913-100Mb
+system            0      10.253.16.12/32  00:00:00:00:00:00         Up                                 
+system            0      -                00:00:00:00:00:00         Up                                 
+ge1/2.400         0      10.253.144.150/30 80:b7:09:2a:c9:a7         Up                TLOC Extension for Biz-Internet
+ge1/2.400         0      -                80:b7:09:2a:c9:a7         Up                TLOC Extension for Biz-Internet
+ge1/5.50          50     10.207.39.253/23 80:b7:09:2a:c9:a6         Up                Interface for GuestWiFi
+ge1/5.702         403    10.253.134.141/30 80:b7:09:2a:c9:a6         Up                LAN Connection to DSW2
+loopback100       403    10.253.16.12/32  00:00:00:00:00:00         Up                Inband Loopback  
+mgmt0             512    192.168.1.254/24 80:b7:09:2a:c9:a0         Down              OOB Management Interface
+LOCAL           PEER    PEER PEER            SITE   DOMAIN PEER            PEER            
+SYSTEM IP       TYPE    PROT SYSTEM IP       ID     ID     PRIVATE IP      PUBLIC IP       LOCAL COLOR      PROXY STATE UPTIME
+-------------------------------------------------------------------------------------------------------------------
+10.253.16.12    vsmart  dtls 52.215.68.72         1      1 10.253.254.20   52.49.39.216    private6         up          3:04:15:34 
+10.253.16.12    vsmart  dtls 52.215.68.72         1      1 10.253.254.20   52.49.39.216    biz-internet     up          3:04:16:11 
+10.253.16.12    vsmart  dtls 3.122.74.167         2      1 10.253.254.85   3.122.22.78     private6         up          3:04:15:29 
+10.253.16.12    vsmart  dtls 3.122.74.167         2      1 10.253.254.85   3.122.22.78     biz-internet     up          3:04:16:06 
+10.253.16.12    vmanage dtls 52.58.138.170        2      0 10.253.254.90   3.121.92.128    biz-internet     up          3:04:31:44 

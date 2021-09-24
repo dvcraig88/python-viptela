@@ -1,0 +1,175 @@
+-----------------------------------------------------
+DFW1-MDFA-VRT1
+-----------------------------------------------------
+[ { 'adminstate': 'UP',
+    'alert-received': 0,
+    'alert-sent': 3,
+    'devicetype': 'vedge',
+    'handshake-received': 6,
+    'handshake-sent': 6,
+    'hello-received': 1113388,
+    'hello-sent': 1113433,
+    'inform-received': 36,
+    'inform-sent': 36,
+    'lastupdated': 1632224639603,
+    'mcast-routes-installed': 0,
+    'mcast-routes-received': 0,
+    'mcast-routes-sent': 0,
+    'ompuptime': '128:20:35:53',
+    'operstate': 'UP',
+    'packets-received': 1587716,
+    'packets-sent': 1116261,
+    'policy-received': 168,
+    'policy-sent': 0,
+    'routes-installed': 17402,
+    'routes-received': 53761,
+    'routes-sent': 90,
+    'services-installed': 0,
+    'services-received': 10,
+    'services-sent': 20,
+    'tlocs-installed': 505,
+    'tlocs-received': 1015,
+    'tlocs-sent': 10,
+    'update-received': 474118,
+    'update-sent': 2784,
+    'vdevice-dataKey': '10.50.230.194--',
+    'vdevice-host-name': 'DFW1-MDFA1-VRT1',
+    'vdevice-name': '10.50.230.194',
+    'vsmart-peers': 2}]
+IFNAME            VPNID  IP ADDR          MAC ADDR                  OPER STATE            DESC
+----------------------------------------------------------------------------------------------------------------------
+gre1              0      172.19.15.9/30   62:06:67:56:00:00         Up                Zscaler Primary Node
+gre1              0      -                62:06:67:56:00:00         Up                Zscaler Primary Node
+gre2              0      172.19.15.13/30  62:06:67:56:00:00         Up                Zscaler Secondary Node
+gre2              0      -                62:06:67:56:00:00         Up                Zscaler Secondary Node
+gre3              0      172.20.57.89/30  62:06:67:56:00:00         Up                Gre_Cloudi-fi_Primary
+gre3              0      -                62:06:67:56:00:00         Up                Gre_Cloudi-fi_Primary
+gre4              0      172.20.57.93/30  62:06:67:56:00:00         Up                Gre_Cloudi-fi_Secondary
+gre4              0      -                62:06:67:56:00:00         Up                Gre_Cloudi-fi_Secondary
+ge2/0             0      -                80:b7:09:13:19:97         Down              STAGING ONLY- SHOULD BE SHUTDOWN
+ge2/0             0      -                80:b7:09:13:19:97         Down              STAGING ONLY- SHOULD BE SHUTDOWN
+ge2/1             0      98.6.103.86/29   80:b7:09:13:19:98         Up                Warner.DIA 97.L1XX.002537..TWCC
+ge2/1             0      -                80:b7:09:13:19:98         Up                Warner.DIA 97.L1XX.002537..TWCC
+ge2/2             0      -                80:b7:09:13:19:95         Up                AT&T LID: 14/KRGN/879029/SW
+ge2/2             0      -                80:b7:09:13:19:95         Up                AT&T LID: 14/KRGN/879029/SW
+ge2/3             0      -                80:b7:09:13:19:96         Down                               
+ge2/3             0      -                80:b7:09:13:19:96         Down                               
+system            0      10.50.230.194/32 00:00:00:00:00:00         Up                                 
+system            0      -                00:00:00:00:00:00         Up                                 
+10ge1/0           0      -                80:b7:09:13:19:94         Up                vEdge to vEdge Connection
+10ge1/0           0      -                80:b7:09:13:19:94         Up                vEdge to vEdge Connection
+10ge1/1           0      -                80:b7:09:13:19:93         Up                                 
+10ge1/1           0      -                80:b7:09:13:19:93         Up                                 
+ge2/2.50          0      10.255.97.1/30   80:b7:09:13:19:95         Up                AT&T LID:14/KRGN/879029/SW
+ge2/2.50          0      -                80:b7:09:13:19:95         Up                AT&T LID:14/KRGN/879029/SW
+10ge1/0.10        0      10.50.198.237/30 80:b7:09:13:19:94         Up                TLOC_Exten_for_Biz-Internet
+10ge1/0.10        0      -                80:b7:09:13:19:94         Up                TLOC_Exten_for_Biz-Internet
+10ge1/0.200       0      10.50.198.242/30 80:b7:09:13:19:94         Up                TLOC Exten for AT&T Private1
+10ge1/0.200       0      -                80:b7:09:13:19:94         Up                TLOC Exten for AT&T Private1
+10ge1/0.201       0      10.50.198.246/30 80:b7:09:13:19:94         Up                TLOC_Exten_for_AT&T_Private2
+10ge1/0.201       0      -                80:b7:09:13:19:94         Up                TLOC_Exten_for_AT&T_Private2
+10ge1/0.300       0      10.50.198.249/30 80:b7:09:13:19:94         Up                CL Private5 Tunnel Interface
+10ge1/0.300       0      -                80:b7:09:13:19:94         Up                CL Private5 Tunnel Interface
+10ge1/0.301       0      10.50.198.253/30 80:b7:09:13:19:94         Up                CL Private6 Tunnel Interface
+10ge1/0.301       0      -                80:b7:09:13:19:94         Up                CL Private6 Tunnel Interface
+loopback101       0      10.50.199.1/32   00:00:00:00:00:00         Up                ATT Loopback101  
+loopback101       0      -                00:00:00:00:00:00         Up                ATT Loopback101  
+10ge1/1.401       10     10.255.97.9/30   80:b7:09:13:19:93         Up                DFW1-MDFA1-DSW1 G1/9/48
+loopback100       10     10.50.230.194/32 00:00:00:00:00:00         Up                Inband Loopback  
+10ge1/1.50        50     10.206.15.252/21 80:b7:09:13:19:93         Up                Cloudi-fi_SGA    
+mgmt0             512    192.168.1.1/24   80:b7:09:13:19:90         Down              OOB Management Interface
+LOCAL           PEER    PEER PEER            SITE   DOMAIN PEER            PEER            
+SYSTEM IP       TYPE    PROT SYSTEM IP       ID     ID     PRIVATE IP      PUBLIC IP       LOCAL COLOR      PROXY STATE UPTIME
+-------------------------------------------------------------------------------------------------------------------
+10.50.230.194   vsmart  tls  35.166.92.196        3      1 10.50.255.220   35.166.65.245   private5         up          17:09:34:24
+10.50.230.194   vsmart  tls  35.166.92.196        3      1 10.50.255.220   35.166.65.245   private6         up          17:09:34:30
+10.50.230.194   vsmart  tls  35.166.92.196        3      1 10.50.255.220   35.166.65.245   private2         up          9:09:06:59 
+10.50.230.194   vsmart  tls  35.166.92.196        3      1 10.50.255.220   35.166.65.245   private1         up          9:09:06:59 
+10.50.230.194   vsmart  tls  35.166.92.196        3      1 10.50.255.220   35.166.65.245   biz-internet     up          5:23:24:25 
+10.50.230.194   vsmart  tls  34.193.58.166        4      1 10.50.255.155   34.195.82.153   private5         up          17:09:40:15
+10.50.230.194   vsmart  tls  34.193.58.166        4      1 10.50.255.155   34.195.82.153   private6         up          17:09:40:50
+10.50.230.194   vsmart  tls  34.193.58.166        4      1 10.50.255.155   34.195.82.153   private2         up          9:09:06:35 
+10.50.230.194   vsmart  tls  34.193.58.166        4      1 10.50.255.155   34.195.82.153   private1         up          9:09:07:04 
+10.50.230.194   vsmart  tls  34.193.58.166        4      1 10.50.255.155   34.195.82.153   biz-internet     up          5:23:24:30 
+10.50.230.194   vmanage tls  35.166.44.170        5      0 10.50.255.214   35.166.2.119    private5         up          9:22:26:29 
+------------------------------------------------------
+DFW1-MDFA1-VRT2
+------------------------------------------------------
+[ { 'adminstate': 'UP',
+    'alert-received': 5,
+    'alert-sent': 16,
+    'devicetype': 'vedge',
+    'handshake-received': 25,
+    'handshake-sent': 25,
+    'hello-received': 3407555,
+    'hello-sent': 3407722,
+    'inform-received': 150,
+    'inform-sent': 150,
+    'lastupdated': 1632224662740,
+    'mcast-routes-installed': 0,
+    'mcast-routes-received': 0,
+    'mcast-routes-sent': 0,
+    'ompuptime': '1y 29:11:14:03',
+    'operstate': 'UP',
+    'packets-received': 9169696,
+    'packets-sent': 3419534,
+    'policy-received': 441,
+    'policy-sent': 0,
+    'routes-installed': 17365,
+    'routes-received': 53668,
+    'routes-sent': 80,
+    'services-installed': 0,
+    'services-received': 5,
+    'services-sent': 10,
+    'tlocs-installed': 505,
+    'tlocs-received': 1015,
+    'tlocs-sent': 10,
+    'update-received': 5761520,
+    'update-sent': 11652,
+    'vdevice-dataKey': '10.50.230.195--',
+    'vdevice-host-name': 'DFW1-MDFA1-VRT2',
+    'vdevice-name': '10.50.230.195',
+    'vsmart-peers': 2}]
+IFNAME            VPNID  IP ADDR          MAC ADDR                  OPER STATE            DESC
+----------------------------------------------------------------------------------------------------------------------
+ge2/0             0      -                80:b7:09:13:03:17         Down              STAGING ONLY- SHOULD BE SHUTDOWN
+ge2/0             0      -                80:b7:09:13:03:17         Down              STAGING ONLY- SHOULD BE SHUTDOWN
+ge2/1             0      1.1.1.1/30       80:b7:09:13:03:18         Down              Verizon LTE      
+ge2/1             0      -                80:b7:09:13:03:18         Down              Verizon LTE      
+ge2/2             0      -                80:b7:09:13:03:15         Down                               
+ge2/2             0      -                80:b7:09:13:03:15         Down                               
+ge2/3             0      65.154.7.42/30   80:b7:09:13:03:16         Up                CenturyLink ETH1000-22674436
+ge2/3             0      -                80:b7:09:13:03:16         Up                CenturyLink ETH1000-22674436
+system            0      10.50.230.195/32 00:00:00:00:00:00         Up                                 
+system            0      -                00:00:00:00:00:00         Up                                 
+10ge1/0           0      -                80:b7:09:13:03:14         Up                vEdge to vEdge Connection
+10ge1/0           0      -                80:b7:09:13:03:14         Up                vEdge to vEdge Connection
+10ge1/1           0      -                80:b7:09:13:03:13         Up                                 
+10ge1/1           0      -                80:b7:09:13:03:13         Up                                 
+10ge1/0.10        0      10.50.198.238/30 80:b7:09:13:03:14         Up                TLOC_TUNNEL | Biz-Internet
+10ge1/0.10        0      -                80:b7:09:13:03:14         Up                TLOC_TUNNEL | Biz-Internet
+10ge1/0.200       0      10.50.198.241/30 80:b7:09:13:03:14         Up                AT&T Private1 Tunnel Interface
+10ge1/0.200       0      -                80:b7:09:13:03:14         Up                AT&T Private1 Tunnel Interface
+10ge1/0.201       0      10.50.198.245/30 80:b7:09:13:03:14         Up                AT&T Private2 Tunnel Interface
+10ge1/0.201       0      -                80:b7:09:13:03:14         Up                AT&T Private2 Tunnel Interface
+10ge1/0.300       0      10.50.198.250/30 80:b7:09:13:03:14         Up                TLOC Exten for CL Private5 TLOC
+10ge1/0.300       0      -                80:b7:09:13:03:14         Up                TLOC Exten for CL Private5 TLOC
+10ge1/0.301       0      10.50.198.254/30 80:b7:09:13:03:14         Up                TLOC_Exten_for_CL_Private6
+10ge1/0.301       0      -                80:b7:09:13:03:14         Up                TLOC_Exten_for_CL_Private6
+loopback201       0      10.50.199.2/32   00:00:00:00:00:00         Up                CL Loopback201   
+loopback201       0      -                00:00:00:00:00:00         Up                CL Loopback201   
+10ge1/1.402       10     10.255.97.13/30  80:b7:09:13:03:13         Up                DFW1-MDFA1-DSW2 G2/10/48
+loopback100       10     10.50.230.195/32 00:00:00:00:00:00         Up                Inband Loopback  
+mgmt0             512    192.168.1.1/24   80:b7:09:13:03:10         Down              OOB Management Interface
+LOCAL           PEER    PEER PEER            SITE   DOMAIN PEER            PEER            
+SYSTEM IP       TYPE    PROT SYSTEM IP       ID     ID     PRIVATE IP      PUBLIC IP       LOCAL COLOR      PROXY STATE UPTIME
+-------------------------------------------------------------------------------------------------------------------
+10.50.230.195   vsmart  tls  35.166.92.196        3      1 10.50.255.220   35.166.65.245   biz-internet     up          5:23:24:46 
+10.50.230.195   vsmart  tls  35.166.92.196        3      1 10.50.255.220   35.166.65.245   private1         up          9:09:07:03 
+10.50.230.195   vsmart  tls  35.166.92.196        3      1 10.50.255.220   35.166.65.245   private2         up          9:09:06:41 
+10.50.230.195   vsmart  tls  35.166.92.196        3      1 10.50.255.220   35.166.65.245   private6         up          17:09:35:12
+10.50.230.195   vsmart  tls  34.193.58.166        4      1 10.50.255.155   34.195.82.153   biz-internet     up          5:23:24:51 
+10.50.230.195   vsmart  tls  34.193.58.166        4      1 10.50.255.155   34.195.82.153   private1         up          9:09:07:08 
+10.50.230.195   vsmart  tls  34.193.58.166        4      1 10.50.255.155   34.195.82.153   private2         up          9:09:06:35 
+10.50.230.195   vsmart  tls  34.193.58.166        4      1 10.50.255.155   34.195.82.153   private6         up          17:09:41:27
+10.50.230.195   vmanage tls  44.237.134.130       5      0 10.50.255.218   44.240.121.105  private2         up          5:19:28:43 

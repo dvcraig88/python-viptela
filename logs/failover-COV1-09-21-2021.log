@@ -1,0 +1,151 @@
+-----------------------------------------------------
+COV1-MDFA-VRT1
+-----------------------------------------------------
+[ { 'adminstate': 'UP',
+    'alert-received': 2,
+    'alert-sent': 8,
+    'devicetype': 'vedge',
+    'handshake-received': 14,
+    'handshake-sent': 14,
+    'hello-received': 1319458,
+    'hello-sent': 1319545,
+    'inform-received': 86,
+    'inform-sent': 86,
+    'lastupdated': 1632228553974,
+    'mcast-routes-installed': 0,
+    'mcast-routes-received': 0,
+    'mcast-routes-sent': 0,
+    'ompuptime': '152:17:59:51',
+    'operstate': 'UP',
+    'packets-received': 1363740,
+    'packets-sent': 1321035,
+    'policy-received': 110,
+    'policy-sent': 0,
+    'routes-installed': 1018,
+    'routes-received': 4010,
+    'routes-sent': 36,
+    'services-installed': 0,
+    'services-received': 2,
+    'services-sent': 4,
+    'tlocs-installed': 74,
+    'tlocs-received': 150,
+    'tlocs-sent': 4,
+    'update-received': 44070,
+    'update-sent': 1382,
+    'vdevice-dataKey': '10.50.224.111--',
+    'vdevice-host-name': 'COV1-MDFA1-VRT1',
+    'vdevice-name': '10.50.224.111',
+    'vsmart-peers': 2}]
+IFNAME            VPNID  IP ADDR          MAC ADDR                  OPER STATE            DESC
+----------------------------------------------------------------------------------------------------------------------
+ge0/0             0      -                80:b7:09:19:1d:b3         Down                               
+ge0/0             0      -                80:b7:09:19:1d:b3         Down                               
+ge0/1             0      -                80:b7:09:19:1d:b4         Down                               
+ge0/1             0      -                80:b7:09:19:1d:b4         Down                               
+ge0/2             0      -                80:b7:09:19:1d:b1         Down                               
+ge0/2             0      -                80:b7:09:19:1d:b1         Down                               
+ge0/3             0      63.144.242.86/30 80:b7:09:19:1d:b2         Up                CL ETH100-23119500
+ge0/3             0      -                80:b7:09:19:1d:b2         Up                CL ETH100-23119500
+ge0/4             0      -                80:b7:09:19:1d:b7         Up                Parent Interface for TLOC
+ge0/4             0      -                80:b7:09:19:1d:b7         Up                Parent Interface for TLOC
+ge0/5             0      -                80:b7:09:19:1d:b8         Up                Parent Interface for LAN1
+ge0/5             0      -                80:b7:09:19:1d:b8         Up                Parent Interface for LAN1
+ge0/6             0      -                80:b7:09:19:1d:b5         Down                               
+ge0/6             0      -                80:b7:09:19:1d:b5         Down                               
+ge0/7             0      -                80:b7:09:19:1d:b6         Down                               
+ge0/7             0      -                80:b7:09:19:1d:b6         Down                               
+system            0      10.50.224.111/32 00:00:00:00:00:00         Up                                 
+system            0      -                00:00:00:00:00:00         Up                                 
+ge0/4.10          0      10.50.237.161/30 80:b7:09:19:1d:b7         Up                TLOC Extension Biz-Internet
+ge0/4.10          0      -                80:b7:09:19:1d:b7         Up                TLOC Extension Biz-Internet
+ge0/4.300         0      10.50.237.157/30 80:b7:09:19:1d:b7         Up                TLOC Extension Private 5
+ge0/4.300         0      -                80:b7:09:19:1d:b7         Up                TLOC Extension Private 5
+ge0/5.201         103    10.128.189.154/29 80:b7:09:19:1d:b8         Up                OSPF LAN Side Connection
+loopback0         103    10.50.224.111/32 00:00:00:00:00:00         Up                                 
+mgmt0             512    192.168.1.1/24   80:b7:09:19:1d:b0         Down              OOB Interface    
+LOCAL           PEER    PEER PEER            SITE   DOMAIN PEER            PEER            
+SYSTEM IP       TYPE    PROT SYSTEM IP       ID     ID     PRIVATE IP      PUBLIC IP       LOCAL COLOR      PROXY STATE UPTIME
+-------------------------------------------------------------------------------------------------------------------
+10.50.224.111   vsmart  tls  35.165.223.179       3      1 10.50.255.108   35.165.173.208  biz-internet     up          6:22:36:19 
+10.50.224.111   vsmart  tls  35.165.223.179       3      1 10.50.255.108   35.165.173.208  private5         up          4:06:41:07 
+10.50.224.111   vsmart  tls  34.195.82.121        4      1 10.50.255.37    34.195.66.235   biz-internet     up          9:07:34:28 
+10.50.224.111   vsmart  tls  34.195.82.121        4      1 10.50.255.37    34.195.66.235   private5         up          4:06:41:02 
+10.50.224.111   vmanage tls  35.166.14.163        5      0 10.50.255.101   35.162.190.158  private5         up          3:22:34:00 
+------------------------------------------------------
+COV1-MDFA1-VRT2
+------------------------------------------------------
+[ { 'adminstate': 'UP',
+    'alert-received': 0,
+    'alert-sent': 10,
+    'devicetype': 'vedge',
+    'handshake-received': 12,
+    'handshake-sent': 12,
+    'hello-received': 1319561,
+    'hello-sent': 1319635,
+    'inform-received': 72,
+    'inform-sent': 72,
+    'lastupdated': 1632228568889,
+    'mcast-routes-installed': 0,
+    'mcast-routes-received': 0,
+    'mcast-routes-sent': 0,
+    'ompuptime': '160:23:14:29',
+    'operstate': 'UP',
+    'packets-received': 1363793,
+    'packets-sent': 1321091,
+    'policy-received': 110,
+    'policy-sent': 0,
+    'routes-installed': 1018,
+    'routes-received': 4012,
+    'routes-sent': 40,
+    'services-installed': 0,
+    'services-received': 4,
+    'services-sent': 8,
+    'tlocs-installed': 74,
+    'tlocs-received': 150,
+    'tlocs-sent': 4,
+    'update-received': 44038,
+    'update-sent': 1362,
+    'vdevice-dataKey': '10.50.224.112--',
+    'vdevice-host-name': 'COV1-MDFA1-VRT2',
+    'vdevice-name': '10.50.224.112',
+    'vsmart-peers': 2}]
+IFNAME            VPNID  IP ADDR          MAC ADDR                  OPER STATE            DESC
+----------------------------------------------------------------------------------------------------------------------
+gre1              0      172.21.203.97/30 2f:2e:94:aa:00:00         Up                 ZScaler Tunnel - Primary
+gre1              0      -                2f:2e:94:aa:00:00         Up                 ZScaler Tunnel - Primary
+gre2              0      172.21.203.101/30 2f:2e:94:aa:00:00         Up                 ZScaler Tunnel - Secondary
+gre2              0      -                2f:2e:94:aa:00:00         Up                 ZScaler Tunnel - Secondary
+ge0/0             0      -                80:b7:09:1b:14:f3         Down                               
+ge0/0             0      -                80:b7:09:1b:14:f3         Down                               
+ge0/1             0      47.46.148.170/30 80:b7:09:1b:14:f4         Up                ACCT:8783600700237750
+ge0/1             0      -                80:b7:09:1b:14:f4         Up                ACCT:8783600700237750
+ge0/2             0      -                80:b7:09:1b:14:f1         Down                               
+ge0/2             0      -                80:b7:09:1b:14:f1         Down                               
+ge0/3             0      -                80:b7:09:1b:14:f2         Down                               
+ge0/3             0      -                80:b7:09:1b:14:f2         Down                               
+ge0/4             0      -                80:b7:09:1b:14:f7         Up                Parent Interface for TLOC
+ge0/4             0      -                80:b7:09:1b:14:f7         Up                Parent Interface for TLOC
+ge0/5             0      -                80:b7:09:1b:14:f8         Up                Parent Interface for LAN1
+ge0/5             0      -                80:b7:09:1b:14:f8         Up                Parent Interface for LAN1
+ge0/6             0      -                80:b7:09:1b:14:f5         Down                               
+ge0/6             0      -                80:b7:09:1b:14:f5         Down                               
+ge0/7             0      -                80:b7:09:1b:14:f6         Down                               
+ge0/7             0      -                80:b7:09:1b:14:f6         Down                               
+system            0      10.50.224.112/32 00:00:00:00:00:00         Up                                 
+system            0      -                00:00:00:00:00:00         Up                                 
+ge0/4.10          0      10.50.237.162/30 80:b7:09:1b:14:f7         Up                TLOC Extension Biz-Internet
+ge0/4.10          0      -                80:b7:09:1b:14:f7         Up                TLOC Extension Biz-Internet
+ge0/4.300         0      10.50.237.158/30 80:b7:09:1b:14:f7         Up                TLOC Extension Private 5
+ge0/4.300         0      -                80:b7:09:1b:14:f7         Up                TLOC Extension Private 5
+ge0/5.198         50     198.18.32.193/26 80:b7:09:1b:14:f8         Up                Guest-WLAN-Clients
+ge0/5.201         103    10.128.189.155/29 80:b7:09:1b:14:f8         Up                OSPF LAN Side Connection
+loopback0         103    10.50.224.112/32 00:00:00:00:00:00         Up                                 
+mgmt0             512    192.168.1.1/24   80:b7:09:1b:14:f0         Down              OOB Interface    
+LOCAL           PEER    PEER PEER            SITE   DOMAIN PEER            PEER            
+SYSTEM IP       TYPE    PROT SYSTEM IP       ID     ID     PRIVATE IP      PUBLIC IP       LOCAL COLOR      PROXY STATE UPTIME
+-------------------------------------------------------------------------------------------------------------------
+10.50.224.112   vsmart  tls  35.165.223.179       3      1 10.50.255.108   35.165.173.208  private5         up          4:06:40:48 
+10.50.224.112   vsmart  tls  35.165.223.179       3      1 10.50.255.108   35.165.173.208  biz-internet     up          3:22:34:35 
+10.50.224.112   vsmart  tls  34.195.82.121        4      1 10.50.255.37    34.195.66.235   private5         up          4:06:40:43 
+10.50.224.112   vsmart  tls  34.195.82.121        4      1 10.50.255.37    34.195.66.235   biz-internet     up          9:07:34:30 
+10.50.224.112   vmanage tls  35.166.14.163        5      0 10.50.255.101   35.162.190.158  private5         up          3:22:34:15 
